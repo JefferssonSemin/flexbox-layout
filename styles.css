@@ -1,9 +1,49 @@
+html,
+body,
 #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  /* padrao para o flexbox */
+  display: flex;
+
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+
+  /* flex-wrap: wrap; */
+
+  align-items: flex-start;
+  /* align-items: center; */
+
+  justify-content: space-around;
+  /* justify-content: space-between; */
+
+  align-content: center;
 }
 
 .box {
-  width: 60px;
+  width: 150px;
   height: 60px;
   margin: 5px;
   background: red;
+
+  /* ocupar todo a tela */
+  /* flex-grow: 1; */
+}
+.red {
+  order: 2;
+}
+
+.green {
+  order: 1;
+
+  background: darkblue;
+}
+
+.blue {
+  order: 3;
+  background: darkgoldenrod;
 }

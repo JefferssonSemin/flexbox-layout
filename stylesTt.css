@@ -1,0 +1,27 @@
+/*DEFAULT CSS * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.app {
+  width: 300px;
+  padding: 20px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* fontes */
+  background: #e6ecf8;
+  font-family: "Helvitica Neue", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
